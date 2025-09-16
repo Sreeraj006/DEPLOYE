@@ -14,7 +14,8 @@ def chat():
 
 @app.route("/", methods=["GET"])
 def home():
-    return "✅ Finance Chatbot API is running!"
+    return " Finance Chatbot API is running!"
 
 if __name__ == "__main__":
     app.run(debug=True)
+
